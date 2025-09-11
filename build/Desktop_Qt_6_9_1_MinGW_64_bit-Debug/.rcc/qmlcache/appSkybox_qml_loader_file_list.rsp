@@ -1,0 +1,6 @@
+--resource
+C:/Users/vasy_/Documents/QT_Projects/Skybox/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Skybox.qrc
+--resource
+C:/Users/vasy_/Documents/QT_Projects/Skybox/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/appSkybox_raw_qml_0.qrc
+/qt/qml/Skybox/Main.qml
+/qt/qml/Skybox/Particle.qml

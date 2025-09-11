@@ -1,0 +1,78 @@
+[
+    {
+        "classes": [
+            {
+                "className": "Particle",
+                "lineNumber": 9,
+                "object": true,
+                "qualifiedClassName": "Particle",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "Particle.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "SimulationController",
+                "lineNumber": 11,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "parent",
+                                "type": "QObject*"
+                            },
+                            {
+                                "name": "x",
+                                "type": "qreal"
+                            },
+                            {
+                                "name": "y",
+                                "type": "qreal"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "createPlanet",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "SimulationController",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "SimulationController.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "SimulationModel",
+                "lineNumber": 9,
+                "object": true,
+                "qualifiedClassName": "SimulationModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "SimulationModel.h",
+        "outputRevision": 69
+    }
+]

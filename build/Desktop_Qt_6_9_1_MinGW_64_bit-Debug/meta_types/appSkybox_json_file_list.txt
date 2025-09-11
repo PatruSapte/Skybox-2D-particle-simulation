@@ -1,0 +1,3 @@
+C:/Users/vasy_/Documents/QT_Projects/Skybox/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appSkybox_autogen/include/../EWIEGA46WW/moc_Particle.cpp.json
+C:/Users/vasy_/Documents/QT_Projects/Skybox/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appSkybox_autogen/include/../EWIEGA46WW/moc_SimulationController.cpp.json
+C:/Users/vasy_/Documents/QT_Projects/Skybox/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appSkybox_autogen/include/../EWIEGA46WW/moc_SimulationModel.cpp.json

@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "SimulationModel",
+            "lineNumber": 9,
+            "object": true,
+            "qualifiedClassName": "SimulationModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "SimulationModel.h",
+    "outputRevision": 69
+}

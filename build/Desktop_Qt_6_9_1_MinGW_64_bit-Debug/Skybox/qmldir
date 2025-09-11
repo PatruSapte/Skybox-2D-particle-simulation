@@ -1,0 +1,6 @@
+module Skybox
+typeinfo appSkybox.qmltypes
+prefer :/qt/qml/Skybox/
+Main 1.0 Main.qml
+Particle 1.0 Particle.qml
+

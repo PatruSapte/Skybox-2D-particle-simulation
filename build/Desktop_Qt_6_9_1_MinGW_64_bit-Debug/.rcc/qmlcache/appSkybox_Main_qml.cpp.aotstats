@@ -1,0 +1,140 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 1306,
+                        "errorMessage": "",
+                        "functionName": "centerX",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "centerY",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 14,
+                        "durationMicroseconds": 719,
+                        "errorMessage": "",
+                        "functionName": "onWheel",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 14,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "onWheel",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 16,
+                        "durationMicroseconds": 597,
+                        "errorMessage": "Cannot access value for name simulationController",
+                        "functionName": "onClicked",
+                        "line": 67
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 78,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 10,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "Cannot load property mouseX from (component in C:/Users/vasy_/Documents/QT_Projects/Skybox/Main.qml)::parent with type QQuickItem.",
+                        "functionName": "x",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 10,
+                        "durationMicroseconds": 130,
+                        "errorMessage": "Cannot load property mouseY from (component in C:/Users/vasy_/Documents/QT_Projects/Skybox/Main.qml)::parent with type QQuickItem.",
+                        "functionName": "y",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 40,
+                        "durationMicroseconds": 786,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method vector2d, returning QVariant -> QVector2D stored as QVariant",
+                        "functionName": "orbitPosition",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 340,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method vector2d, returning QVariant -> QVector2D stored as QVariant",
+                        "functionName": "orbitDirection",
+                        "line": 44
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 10,
+                        "durationMicroseconds": 67,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 10,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 53
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "antialiasing",
+                        "line": 64
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 16,
+                        "durationMicroseconds": 434,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "angle",
+                        "line": 58
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 99,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 129,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 57
+                    }
+                ],
+                "filePath": "C:/Users/vasy_/Documents/QT_Projects/Skybox/Main.qml"
+            }
+        ],
+        "moduleId": "Skybox(appSkybox)"
+    }
+]

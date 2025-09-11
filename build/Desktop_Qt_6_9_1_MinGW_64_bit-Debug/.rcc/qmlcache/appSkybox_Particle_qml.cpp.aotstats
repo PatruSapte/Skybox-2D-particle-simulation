@@ -1,0 +1,20 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 1417,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 7
+                    }
+                ],
+                "filePath": "C:/Users/vasy_/Documents/QT_Projects/Skybox/Particle.qml"
+            }
+        ],
+        "moduleId": "Skybox(appSkybox)"
+    }
+]

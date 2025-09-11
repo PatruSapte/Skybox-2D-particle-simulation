@@ -1,0 +1,20 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 139,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 7
+                    }
+                ],
+                "filePath": "C:/Users/vasy_/Documents/QT_Projects/Skybox/Planet.qml"
+            }
+        ],
+        "moduleId": "Skybox(appSkybox)"
+    }
+]

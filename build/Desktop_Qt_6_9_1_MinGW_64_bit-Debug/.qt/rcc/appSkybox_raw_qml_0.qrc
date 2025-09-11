@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/qt/qml/Skybox/">
+    <file alias="Main.qml">C:/Users/vasy_/Documents/QT_Projects/Skybox/Main.qml</file>
+    <file alias="Particle.qml">C:/Users/vasy_/Documents/QT_Projects/Skybox/Particle.qml</file>
+    <file alias="assets/arrow-up.png">C:/Users/vasy_/Documents/QT_Projects/Skybox/assets/arrow-up.png</file>
+    <file alias="assets/planet.png">C:/Users/vasy_/Documents/QT_Projects/Skybox/assets/planet.png</file>
+  </qresource>
+</RCC>
+

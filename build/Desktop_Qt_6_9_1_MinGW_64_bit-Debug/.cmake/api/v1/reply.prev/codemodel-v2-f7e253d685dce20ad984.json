@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b79e6c01ac687f598665.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Skybox",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-0638f4880a7ec023270c.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-aa8b30943d4f242551f4.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-79eaca9da014c3b52c38.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-15f34473d59df825ad36.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-1d5220a5ffe5d5672e8d.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSkybox::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSkybox-Debug-b484dffc50cf83e1fa5a.json",
+					"name" : "appSkybox",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSkybox_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSkybox_autogen-Debug-4c90de05ae042caa9e8a.json",
+					"name" : "appSkybox_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSkybox_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSkybox_autogen_timestamp_deps-Debug-04cb7503f1ca4b224a09.json",
+					"name" : "appSkybox_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSkybox_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSkybox_copy_qml-Debug-dd63ca0b8f7af77f1a9c.json",
+					"name" : "appSkybox_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSkybox_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSkybox_copy_res-Debug-7a6cc599eaaeb141be8c.json",
+					"name" : "appSkybox_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSkybox_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSkybox_qmlimportscan-Debug-fb28f31847475637faca.json",
+					"name" : "appSkybox_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSkybox_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSkybox_qmllint-Debug-2593495cefa45aaa6182.json",
+					"name" : "appSkybox_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSkybox_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSkybox_qmllint_json-Debug-c82686f9d8aeb1c502cf.json",
+					"name" : "appSkybox_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSkybox_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSkybox_qmllint_module-Debug-dfe5f2600d9ec85f2e14.json",
+					"name" : "appSkybox_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSkybox_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSkybox_qmltyperegistration-Debug-ba63ea1e89b556c6f374.json",
+					"name" : "appSkybox_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appSkybox_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appSkybox_aotstats_target-Debug-f053cabda37ccefc4d80.json",
+					"name" : "module_appSkybox_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/vasy_/Documents/QT_Projects/Skybox/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug",
+		"source" : "C:/Users/vasy_/Documents/QT_Projects/Skybox"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
