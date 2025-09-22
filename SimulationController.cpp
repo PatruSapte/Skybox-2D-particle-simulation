@@ -16,13 +16,14 @@ void SimulationController::toggleSimulation(bool run) {
         m_model->pause();
 }
 
-void SimulationController::createPlanet(QObject* parent, qreal x, qreal y )
+void SimulationController::createPlanet(QObject* parent, qreal x, qreal y, QVector2D velocity)
 {
     // Example logic: queue an addPlanet command to the model
+    QQuickItem* planet = createQmlObject(parent, "Skybox/Particle.qml","planet_");
 
-    QQuickItem* planet = createQmlObject(parent, "Skybox/Planet.qml","planet_");
-
-    Particle* newPlanet = new Particle(planet, x, y);
+    Point realPosition = Point(x, y);
+    Point realVelocity = Point((qreal)velocity.x(), (qreal)velocity.y());
+    Particle* newPlanet = new Particle(planet, realPosition, realVelocity);
 
     m_model->addNewPlanet(newPlanet);
 

@@ -24,6 +24,7 @@ qt_add_qml_module(appSkybox
 
     RESOURCES
         assets/arrow-up.png
+        assets/white_arrow.png
         assets/planet.png
         SOURCES
         QML_FILES
@@ -38,6 +39,11 @@ qt_add_qml_module(appSkybox
         SOURCES
         SOURCES
         SOURCES Point.h Point.cpp
+        QML_FILES ParticleSpawnHandler.qml
+        RESOURCES
+        QML_FILES Main_orig.qml
+        QML_FILES Utils.js
+        RESOURCES
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

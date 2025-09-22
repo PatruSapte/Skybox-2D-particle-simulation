@@ -18,7 +18,7 @@ public:
     SimulationModel *m_model;
 
     void toggleSimulation(bool run);
-    Q_INVOKABLE void createPlanet(QObject* parent, qreal x, qreal y );
+    Q_INVOKABLE void createPlanet(QObject* parent, qreal x, qreal y, QVector2D velocity);
     QQuickItem *createQmlObject(QObject *parent, QString path, QString id="no_id_provided");
 
 };

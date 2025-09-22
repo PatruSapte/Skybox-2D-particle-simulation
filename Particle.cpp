@@ -1,15 +1,11 @@
 #include "Particle.h"
 #include <QDebug>
 
-Particle::Particle(QQuickItem *viewQml, qreal _x, qreal _y, qreal _mass,
-                           Point _velocity, QObject *parent)
-    : QObject{parent}, m_mass(_mass) {
-    position = Point(_x, _y);
-    velocity = Point(0, 0);
-    velocity.x = (qreal)0;
-    velocity.y = (qreal)0;
-    position.x = _x;
-    position.y = _y;
+Particle::Particle(QQuickItem *viewQml, Point _positon, Point _velocity,
+                   qreal _mass, QObject *parent)
+    : QObject{parent}, m_mass(_mass), position{_positon}, velocity{_velocity}
+
+{
     SetupView(viewQml);
     // ResetPositionMemory();
 }
@@ -23,13 +19,12 @@ void Particle::SetupView() {
     view->setProperty("width", 32);
     view->setProperty("height", 32);
 
-    view->setX(position.x );
-    view->setY(position.y );
+    view->setX(position.x);
+    view->setY(position.y);
 
     view->setParent(this);
 }
-qreal Particle::radius()
-{
+qreal Particle::radius() {
     qreal r = (qreal)1 + mass();
     return r;
 }
@@ -48,8 +43,8 @@ void Particle::setY(qreal newY) {
 }
 
 void Particle::setPosition(Point newPosition) {
-    setX(newPosition.x );
-    setY(newPosition.y );
+    setX(newPosition.x);
+    setY(newPosition.y);
 }
 void Particle::ApplyVelocity(qreal deltaTime) {
     setX(position.x + velocity.x * deltaTime);

@@ -12,7 +12,7 @@ class Particle : public QObject
 
 
 public:
-    explicit Particle(QQuickItem* viewQml, qreal _x, qreal _y, qreal _mass = 1, Point _velocity = Point(0, 0), QObject *parent = nullptr);
+    explicit Particle(QQuickItem* viewQml, Point _positon, Point _velocity = Point(0, 0), qreal _mass = 1, QObject *parent = nullptr);
 
 
     QQuickItem* view;
