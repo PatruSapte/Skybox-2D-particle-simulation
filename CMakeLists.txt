@@ -41,7 +41,7 @@ qt_add_qml_module(appSkybox
         SOURCES Point.h Point.cpp
         QML_FILES ParticleSpawnHandler.qml
         RESOURCES
-        QML_FILES Main_orig.qml
+        QML_FILES
         QML_FILES Utils.js
         RESOURCES
 )
